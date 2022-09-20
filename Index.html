@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head lang="eng-us">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device, initial-scale=1.0">
+        <title>Registration form</title>
+        <link rel="stylesheet" href="assents/css/style.css"/>
+    </head>
+    <body>
+        <div class="container">
+                <div class="form-image">
+                    <img src="assents/img/undraw_Shopping_re_hdd9-removebg-preview.png">
+                </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Sign up:</h1>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="#">Log in</a></button>
+                        </div>
+                    </div>
+                    <div class="input-group">
+
+                        <!--FIRST NAME-->
+                        <div class="input-box">
+                            <label for="firstname">First Name</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Please enter your first name" required>
+                        </div>
+
+                        <!--LAST NAME-->
+                        <div class="input-box">
+                            <label for="lastname">Last Name</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Please enter your last name" required>
+                        </div>
+
+                        <!--EMAIL-->
+                        <div class="input-box">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" name="email" placeholder="Please enter your email" required>
+                        </div>
+
+                        <!--CELL PHONE-->
+                        <div class="input-box">
+                            <label for="number">Mobile</label>
+                            <input id="number" type="number" name="number" placeholder="+(xx) xxxx xxxxxxx" required>
+                        </div>
+
+                        <!--PASSWORD-->
+                        <div class="input-box">
+                            <label for="password">Password</label>
+                            <input id="password" type="password" name="password" placeholder="Please, type your password" required>
+                        </div>
+
+                        <!--Confirm your password-->
+                        <div class="input-box">
+                            <label for="confirmpassword">Confirm Password</label>
+                            <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Please, Confirm your password" required>
+                        </div>
+                    </div>
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>Gender</h6>
+                        </div>
+                        <!--Female-->
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input type="radio" id="female" name="gender">
+                                <label for="female">Female</label>
+                            </div>
+
+                        <!--Male-->    
+                            <div class="gender-input">
+                                <input type="radio" id="male" name="gender">
+                                <label for="male">Male</label>
+                            </div>
+
+                        <!--Others gender-->
+                            <div class="gender-input">
+                                <input type="radio" id="othersgender" name="gender">
+                                <label for="othersgender">Others Gender</label>
+                            </div>
+                        
+                        <!--I PREFER NOT TO SAY-->
+                            <div class="gender-input">
+                                <input type="radio" id="none" name="gender">
+                                <label for="none">I prefer not to say</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="continue-button">
+                        <button><a href="#"> Continue </a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
